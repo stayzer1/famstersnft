@@ -1,0 +1,54 @@
+.product {
+    background: url(../../img/nft_bkg.png) center (center/cover) no-repeat;
+    height: 630px;
+    background-color: #04081D;
+    padding-top: 100px;
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        &_title {
+            color: #FFF;
+            font-family: Clash Display;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 50px;
+            display: flex;
+            margin-bottom: 50px;
+            div {
+                background: linear-gradient(101deg, #22AFFF 58.48%, #DF1DFF 96.87%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-family: Clash Display;
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 50px;
+                width: 100px;
+            }
+        }
+        &_text {
+            color: #BDC4C9;
+            font-family: Cerebri Sans Pro;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28px;
+            width: 563px;
+            margin-bottom: 25px;
+        }
+        &_subtext {
+            color: #BDC4C9;
+            width: 630px;
+            font-family: Cerebri Sans Pro;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            margin-bottom: 80px;
+        }
+    }
+    &__images {
+        text-align: center;
+        img {
+            margin-right: 60px;
+        }
+    }
+}

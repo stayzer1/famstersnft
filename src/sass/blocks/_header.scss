@@ -1,0 +1,19 @@
+.header {
+    max-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 31px 75px;
+    &__info {
+        display: flex;
+        &-item {
+            color: #EBEBEB;
+            font-size: 23px;
+            font-weight: 500;
+            margin-right: 35px;
+        }
+        &-item:nth-child(6) {
+            margin-right: 0;
+        }
+    }
+}

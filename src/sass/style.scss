@@ -1,0 +1,23 @@
+// @import 'base/_variables.scss';
+// @import 'base/_mixins.scss';
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: 'Cerebri Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/product';

@@ -1,0 +1,37 @@
+/* 400 */
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    font-display: swap;
+    src: local('CerebriSansPro'),
+         url('../fonts/CerebriSansPro400.ttf') format('truetype'),
+         url('../fonts/CerebriSansPro400.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CerebriSansPro400.woff') format('woff'); 
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 500 */
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    font-display: swap;
+    src: local('CerebriSansPro'),
+         url('../fonts/CerebriSansPro500.ttf') format('truetype'),
+         url('../fonts/CerebriSansPro500.eot') format('embedded-opentype'),
+         url('../fonts/CerebriSansPro500.woff') format('woff'); 
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* 700 */
+
+@font-face {
+    font-family: 'Cerebri Sans Prol';
+    font-display: swap;
+    src: local('CerebriSansPro'),
+         url('../fonts/CerebriSansPro700.ttf') format('truetype'),
+         url('../fonts/CerebriSansPro700.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CerebriSansPro700.woff') format('woff'); 
+    font-weight: 700;
+    font-style: normal;
+}

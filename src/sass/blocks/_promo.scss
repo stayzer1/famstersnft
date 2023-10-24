@@ -1,0 +1,42 @@
+.promo {
+    background: url(../../img/promo_bkg.png) center (center/cover) no-repeat;
+    height: 1090px;
+    background-color: #04081D;
+    &__info {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        &_left {
+            width: 500px;
+        }
+        &_subtitle {
+            color: #FFF;
+            font-family: 'Press Start 2P';
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        &_title {
+            color: #FFF;
+            font-family: Clash Display;
+            font-size: 64px;
+            font-weight: 600;
+            line-height: 60px;
+            margin-bottom: 35px;
+        }
+        &_text {
+            color: #BDC4C9;
+            font-family: Cerebri Sans Pro;
+            font-size: 19px;
+            font-weight: 500;
+            margin-bottom: 50px;
+        }
+    }
+    .partners {
+        background-color: #04081D;
+        margin-top: 67px;
+        text-align: center;
+        
+    }
+}
