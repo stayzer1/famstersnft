@@ -1,0 +1,52 @@
+.rarity {
+    background-color: #04081D;
+    &__title {
+        color: #FFF;
+        font-family: Clash Display;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 50px;
+        padding-top: 100px;
+        padding-bottom: 73px;
+        padding-left: 20px;
+        position: relative;
+        z-index: 5;
+    }
+    &__bkg {
+        position: absolute;
+        top: 150%;
+        opacity: 0.6;
+    }
+    &__hats {
+        &_title {
+            color: #D1D6E4;
+            font-family: 'Press Start 2P';
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25px;
+            text-transform: uppercase;
+            padding-bottom: 25px;
+        }
+        &_line {
+            padding-bottom: 55px;
+            z-index: 4;
+            position: relative;
+        }
+    }
+    &__items {
+        &_title {
+            color: #D1D6E4;
+            font-family: 'Press Start 2P';
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25px;
+            text-transform: uppercase;
+            padding-bottom: 25px;
+        }
+        &_line {
+            padding-bottom: 100px;
+            z-index: 4;
+            position: relative;
+        }
+    }
+}
